@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:rgb(231, 193, 231);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgba(91, 85, 85, 0.702);
+    margin-bottom: 0.3em;
+    margin-left: 24px;
+    font-size: 24px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.container .box {
+    width: 100%;
+    display: flex;
+}
+
+.box div {
+    width: 100%;
+}
+
+select {
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    cursor: pointer;
+    outline: none;
+    background: rgb(179, 104, 179);
+    color: wheat;
+    margin: 0.7em 0;
+    border-radius: 10px;
+    border: none;
+}
+
+input {
+    width: 95%;
+    height: 40px;
+    font-size: 1em;
+    margin: 0.3em 0;
+    border-radius: 10px;
+    border:none;
+    background:rgb(255, 239, 255);
+    outline: none;
+    padding: 0 1em;
+}
+
+.btn {
+    width: 97%;
+    height: 40px;
+    background: #a27bb4;
+    color:white;
+    border-radius:10px;
+    border:none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0.5em 0;
+    transition: 1s;
+    
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: scale(1.03);
+}
+
+.convert {
+    font-size: 20px;
+    text-align: center;
+    color:#a27bb4;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.convert:hover {
+    opacity: 1;
+}
