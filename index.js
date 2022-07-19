@@ -56,7 +56,6 @@ function calculate() {
     });
 }
 
-// Event Listeners
 currencyInput.addEventListener('change', calculate);
 inputNumber.addEventListener('input', calculate);
 currencyOutput.addEventListener('change', calculate);
