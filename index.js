@@ -37,7 +37,6 @@ const currencyInput = document.getElementById('currencyInput');
 const currencyOutput = document.getElementById('currencyOutput');
 const inputNumber = document.getElementById('inputNumber');
 const outputNumber = document.getElementById('outputNumber');
-
 const rateEl = document.getElementById('convert');
 const button = document.getElementById('btn');
 
